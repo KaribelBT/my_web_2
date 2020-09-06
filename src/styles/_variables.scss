@@ -1,0 +1,34 @@
+// Variables
+
+// Set custom colors
+$blue: rgb(83, 188, 218);
+$dark-green: rgb(62, 110, 62);
+$light-blue: rgb(179, 224, 227);
+
+// Override Bootstrap primary and secondary colors
+$primary: $blue;
+$secondary: $dark-green;
+
+// Override Bootstrap font variables
+$font-family-sans-serif: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+$headings-font-family: "Montserrat", -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+$headings-font-weight: 700;
+
+// Override Bootstrap border variables
+$border-width: 0.125rem;
+$border-radius: 0.5rem;
+$border-radius-lg: 0.75rem;
+$border-radius-sm: 0.25rem;
+
+// Override Bootstrap input/button variables
+$input-btn-border-width: $border-width;
+
+// Restate the spacer variable for overriding grid gutter width
+$spacer: 1rem;
+
+// Override the spacing between columns to add symmetry to the layout
+$grid-gutter-width: $spacer * 3;
